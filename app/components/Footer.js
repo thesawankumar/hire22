@@ -98,7 +98,7 @@ const Footer = () => {
 
                 {/* Information */}
                 <Grid item xs={12} sm={6} md={1.5}>
-                    <Typography variant="h6" fontWeight="bold" gutterBottom>
+                    <Typography variant="h6" fontWeight="semi-bold" gutterBottom>
                         Information
                     </Typography>
                     <Stack spacing={1}>
@@ -117,7 +117,7 @@ const Footer = () => {
 
                 {/* Candidate */}
                 <Grid item xs={12} sm={6} md={2}>
-                    <Typography variant="h6" fontWeight="bold" gutterBottom>
+                    <Typography variant="h6" fontWeight="semi-bold" gutterBottom>
                         Candidate Zone
                     </Typography>
                     <Link href="#" underline="hover" sx={{ color: '#cfd8dc', fontSize: 14 }}>
@@ -135,7 +135,7 @@ const Footer = () => {
 
                 {/* Employer */}
                 <Grid item xs={12} sm={6} md={2}>
-                    <Typography variant="h6" fontWeight="bold" gutterBottom>
+                    <Typography variant="h6" fontWeight="semi-bold" gutterBottom>
                         Employer Zone
                     </Typography>
                     <Stack spacing={1}>
